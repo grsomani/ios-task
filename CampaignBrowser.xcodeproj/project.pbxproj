@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04667CC72704D807009A9DBE /* CampaignListingViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04667CC62704D807009A9DBE /* CampaignListingViewLayout.swift */; };
 		23F7B59A1F5958F300154DD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7B5991F5958F300154DD9 /* AppDelegate.swift */; };
 		23F7B59F1F5958F300154DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F7B59D1F5958F300154DD9 /* Main.storyboard */; };
 		23F7B5A11F5958F300154DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F7B5A01F5958F300154DD9 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04667CC62704D807009A9DBE /* CampaignListingViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CampaignListingViewLayout.swift; path = Screens/CampaignsListing/CampaignListingViewLayout.swift; sourceTree = "<group>"; };
 		23F7B5961F5958F300154DD9 /* CampaignBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampaignBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F7B5991F5958F300154DD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23F7B59E1F5958F300154DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				23F7B5BF1F595E5500154DD9 /* Cells */,
 				23F7B5DF1F59A73000154DD9 /* CampaignListingView.swift */,
 				23F7B5BB1F595A1800154DD9 /* CampaingListingViewController.swift */,
+				04667CC62704D807009A9DBE /* CampaignListingViewLayout.swift */,
 			);
 			name = CampaignListing;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				23F7B5E01F59A73000154DD9 /* CampaignListingView.swift in Sources */,
 				23F7B5DE1F59A71B00154DD9 /* CampaignData.swift in Sources */,
 				23F7B5DA1F59A70E00154DD9 /* ImageService.swift in Sources */,
+				04667CC72704D807009A9DBE /* CampaignListingViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

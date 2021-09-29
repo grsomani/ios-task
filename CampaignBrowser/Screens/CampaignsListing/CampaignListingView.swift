@@ -78,12 +78,6 @@ class ListingDataSource: NSObject, UICollectionViewDataSource, UICollectionViewD
         }
         return cell
     }
-
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout,
-                        sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.frame.size.width, height: 450)
-    }
-
 }
 
 
@@ -102,10 +96,5 @@ class LoadingDataSource: NSObject, UICollectionViewDataSource, UICollectionViewD
         let reuseIdentifier = CampaignListingView.Cells.loadingIndicatorCell.rawValue
         return collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier,
                                                   for: indexPath)
-    }
-
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout,
-                        sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return collectionView.frame.size
     }
 }

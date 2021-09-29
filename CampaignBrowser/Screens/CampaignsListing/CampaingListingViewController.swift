@@ -14,11 +14,15 @@ class CampaignListingViewController: UIViewController {
 
     @IBOutlet
     private(set) weak var typedView: CampaignListingView!
-
+    private let customFlowLayout = CampaignListingViewLayout()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         assert(typedView != nil)
+        
+        customFlowLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
+        customFlowLayout.minimumLineSpacing = 0
+        typedView.collectionViewLayout = customFlowLayout
     }
 
     override func viewWillAppear(_ animated: Bool) {
